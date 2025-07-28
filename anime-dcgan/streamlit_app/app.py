@@ -8,6 +8,7 @@ from generator_utils import load_generator, generate_images
 st.set_page_config(page_title="Anime Face Generator", layout="centered")
 st.title("🎭 Anime Face Generator (DCGAN)")
 st.caption("Generate random anime faces using a PyTorch DCGAN model.")
+st.markdown("© 2025 Mohammad Hamim")
 
 # Sidebar
 st.sidebar.header("⚙️ Settings")

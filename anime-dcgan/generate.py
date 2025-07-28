@@ -9,7 +9,7 @@ ngf = 64             # Generator feature map size (same as training)
 nc = 3               # Number of channels (RGB)
 num_images = 16      # Number of images to generate
 output_path = "outputs/generated_faces.png"
-checkpoint_path = "outputs/netG_epoch_100.pth"  # Change to your saved model
+checkpoint_path = "outputs/netG_epoch_20.pth"  # Change to your saved model
 
 # Device
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")

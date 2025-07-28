@@ -20,7 +20,7 @@ ngf = 64         # Generator feature maps
 ndf = 64         # Discriminator feature maps
 nc = 3           # Number of channels (RGB)
 batch_size = 128
-epochs = 25
+epochs = 20
 lr = 0.0002
 beta1 = 0.5
 

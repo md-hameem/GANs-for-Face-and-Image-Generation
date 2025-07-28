@@ -15,7 +15,7 @@ num_faces = st.sidebar.slider("Number of Faces", 1, 32, 8)
 seed = st.sidebar.number_input("Random Seed", min_value=0, max_value=9999, value=42)
 
 # Load the generator model
-netG = load_generator("outputs/netG_epoch_100.pth")
+netG = load_generator("outputs/netG_epoch_20.pth")
 
 # Generate button
 if st.button("🎨 Generate Faces"):
